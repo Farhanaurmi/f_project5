@@ -1,4 +1,6 @@
 /*** Mixins & Default Styles ***/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +9,7 @@
 body {
     overflow-x: hidden;
     overflow-y: scroll;
+    font-family: 'Nunito', sans-serif;
 }
 
 #logo{
@@ -206,4 +209,46 @@ section:nth-child(even) {
        
     
    }
+}
+
+.h1title{
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    color: rgb(87, 87, 87);
+}
+
+.h3title{
+    color: #0063a9;
+    padding-bottom: 30px;
+}
+.text{
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+
+.section-one{
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.section-two{
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.section-three{
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.section-four{
+    text-align: justify;
+    text-justify: inter-word; 
+}
+
+.section-five{
+    text-align: justify;
+    text-justify: inter-word; 
 }
