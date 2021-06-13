@@ -10,7 +10,7 @@ body {
 }
 
 #logo{
-    color: aliceblue;
+    color: #e7e7e7;
 }
 
 /*** Color Variables ***/
@@ -19,14 +19,14 @@ body {
 header {
     width: 100vw;
     height: 20vh;
-    background: #cecece;
+    background: #e4e4e4;
     display: flex;
 }
 /*** Navigation Styles ***/
 nav {
     width: 100vw;
-    height: 160px;
-    background: #042500;
+    height: 130px;
+    background: #e7e7e7;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: fixed;
@@ -44,6 +44,7 @@ nav.navShadow #word-mark {
     display: flex;
     align-items: center;
     list-style-type: none;
+    width: 100vw;
 }
 #brand {
     padding-left: 40px;
@@ -59,11 +60,12 @@ nav.navShadow #word-mark {
     margin-left: 20px;
 }
 .li a {
-    width: 80px;
+    width: auto;
     height: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
+    padding-left: 10px;
 }
 #menu-toggle {
     display: flex;
@@ -90,7 +92,7 @@ nav.navShadow #word-mark {
 .bar {
     width: 25px;
     height: 2px;
-    background: #fff;
+    background: #000000;
     transition: 0.3s ease-in-out;
 }
 .bar:nth-child(2) {
@@ -109,7 +111,7 @@ nav.navShadow #word-mark {
 #head-line {
     width: 520px;
     height: 30px;
-    background: #fff;
+    background: #e7e7e7;
     border-radius: 90px;
     position: relative;
 }
@@ -120,7 +122,7 @@ nav.navShadow #word-mark {
 }
 #head-line:before {
     width: 360px;
-    background: #fff;
+    background: #e7e7e7;
     position: absolute;
     top: -60px;
     left: 50%;
@@ -128,7 +130,7 @@ nav.navShadow #word-mark {
 }
 #head-line:after {
     width: 200px;
-    background: #fff;
+    background: #e7e7e7;
     position: absolute;
     left: 50%;
     bottom: -60px;
@@ -143,10 +145,10 @@ section {
     justify-content: center;
 }
 section:nth-child(odd) {
-    background: #b9b9b9;
+    background: #e4e4e4;
 }
 section:nth-child(even) {
-    background: #cecece;
+    background: #e4e4e4;
 }
 #heading {
     width: 120px;
@@ -164,7 +166,7 @@ section:nth-child(even) {
         display: inline-block;
         width: 100vw;
         height: 0;
-        background: #042500;
+        background: #e7e7e7;
         position: absolute;
         top: 160px;
         transform: translate();
@@ -181,7 +183,7 @@ section:nth-child(even) {
         visibility: visible;
    }
     .li {
-        width: 50%;
+        
         height: 80px;
         float: center;
         padding-left: 50%;
@@ -197,5 +199,11 @@ section:nth-child(even) {
    }
    .vid{
        width: 100%;
+   }
+   .img{
+       
+       margin-left: -130px;
+       
+    
    }
 }
